@@ -15,7 +15,7 @@ export default function Home() {
       <About />
       <Skills />
       <Security />
-      <div className=" w-full grid projects-m0bile md:grid-cols-2 gap-10 px-4 py-20">
+      <div id="projects" className=" w-full grid projects-m0bile md:grid-cols-2 gap-10 px-4 py-20">
         <ProductCard />
         <ProductCard />
         <ProductCard />
