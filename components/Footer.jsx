@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mb-[20px] text-[15px] text-center">
-          © Asadov 2024 Inc. All rights reserved
+          © Asadov Hasanali 2024 Inc. All rights reserved
         </div>
       </div>
     </div>

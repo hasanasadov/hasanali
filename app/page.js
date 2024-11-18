@@ -7,7 +7,7 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <div className="rotate-180 lg:top-[-340px] top-[-50px] absolute -z-10">
         <video src="/blackhole.webm" autoPlay loop muted />
@@ -15,7 +15,7 @@ export default function Home() {
       <About />
       <Skills />
       <Security />
-      <div className="h-full w-full grid projects-m0bile md:grid-cols-2 gap-10 px-10 py-20">
+      <div className=" w-full grid projects-m0bile md:grid-cols-2 gap-10 px-4 py-20">
         <ProductCard />
         <ProductCard />
         <ProductCard />

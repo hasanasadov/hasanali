@@ -1,8 +1,7 @@
 import React from "react";
-import lockTop from "@/public/LockTop.png";
 const Security = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center lg:min-h-screen w-full h-full z-50 my-20 lg:mb-0 ">
+    <div className="flex flex-col relative items-center justify-center lg:min-h-screen w-full h-full z-50 my-5 lg:mb-0 px-4">
       <div className="lg:absolute w-auto h-auto top-0 z-[5]">
         <div className="text-[40px] font-medium text-center text-gray-200">
           Performance
@@ -24,7 +23,7 @@ const Security = () => {
             data-nimg="1"
             className="w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
             style={{ color: "red" }}
-            src={lockTop}
+            src="/lockTop.png"
           />
           <img
             alt="Lock Main"
@@ -35,8 +34,7 @@ const Security = () => {
             data-nimg="1"
             className=" z-10"
             style={{ color: "transparent" }}
-            srcSet="/_next/LockMain6842.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2FLockMain.png&amp;w=256&amp;q=75 2x"
-            src="/_next/image?url=%2FLockMain.png&amp;w=256&amp;q=75"
+            src="/LockMain.png"
           />
         </div>
         <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
@@ -48,7 +46,7 @@ const Security = () => {
           Secure your data with end-to-end encryption
         </div>
       </div>
-      <div className="w-full flex items-start justify-center absolute top-20 sm:-top-8 md:-top-10 lg:top-auto">
+      <div className="w-full flex items-start justify-center top-20 sm:-top-8 md:-top-10 lg:top-auto">
         <video
           autoPlay
           loop
