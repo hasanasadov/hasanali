@@ -34,7 +34,7 @@ const About = () => {
           </span>
         </div>
         <p className="text-base lg:text-lg text-gray-400 my-5 max-w-[600px]">
-          I'm an innovative Front-end Developer who has made software a part of
+          I`m an innovative Front-end Developer who has made software a part of
           his life. I care about taking responsibility, communicating clearly,
           and doing the job on time.
         </p>
